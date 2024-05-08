@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container{
+  width: 300px;
+  background-color: #0f0f0f0f;
+}
+.backdrop{
+    position: fixed;
+    top:0.1;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0,0,0.75);
+}
+.modal{
+    position: fixed;
+    top:10%;
+    right:0%;
+    width: 90;
+    height: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+}
